@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Spring 1</title>
+</head>
+<body>
+    <div id="nav_bar">
+        <a class="active" href="#opt1">Opción 1</a>
+        <a href="#opt2">Opción 2</a>
+        <a href="#opt3">Opción 3</a>
+        <a href="#opt4">Opción 4</a>
+        <a href="#opt5">Opción 5</a>
+        <a href="#opt6">Opción 6</a>
+
+        <button id="Registerbutton">
+            <a href="registro.html">Registrar</a>
+        </button>
+    </div>
+
+    <div id="main">
+        <div id="botonesConfig">
+            <button>Sonido</button>
+            <button>Cambiar modo</button>
+            <button>Idioma</button>
+        </div>
+    </div>
+
+    <!--Script para el cambio de la clase activa-->
+    <script>
+        $(function() {
+           $('#nav_bar a').click(function() {
+               console.log("Hola");
+              $('#nav_bar a').removeClass();
+              console.log($($(this).attr('href')));
+              $(this).addClass('active');
+           });
+        });
+     </script>
+</body>
+</html>

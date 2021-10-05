@@ -1,0 +1,91 @@
+/* Barra de navegación*/
+#nav_bar {
+    background-color: silver;
+    overflow: hidden;
+    position: fixed;
+    width: 99%;
+}
+
+/* Estilos de las opciones en la barra de navegación */
+#nav_bar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Cambiar el color */
+#nav_bar a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+/* Cambiar el color a la opción seleccionada */
+#nav_bar a.active {
+    background-color: darkblue;
+    color: white;
+}
+
+/* Boton de registro */
+#Registerbutton{
+    margin-left: 1000px;
+    height: 30px;
+    width: 50px;
+
+    color: black;
+    border: 1px solid black;
+    padding: 3px;
+    font-size: 10px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+#Registerbutton a{
+
+    color: black;
+    padding: 3px;
+    font-size: 10px;
+}
+
+#Registerbutton:hover{
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Relleno */
+#main{
+    background-color: white;
+    height: 2000px;
+}
+
+/*Formulario*/
+/* Tamaño del div del formulario */
+#formRegistro{
+    height: 200px;
+    width: 100px;
+}
+
+/* Inputs del formulario */
+#formRegistro form input{
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+
+/*Botones de configuracion*/
+#botonesConfig button{
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#botonesConfig button:hover{
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
